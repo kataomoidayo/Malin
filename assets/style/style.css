@@ -2,24 +2,81 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap'); */
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
-    /* margin: 0;
-    padding: 0; */
+    /* font-family: 'Josefin Sans', sans-serif; */
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     display: flex;
-    margin: auto;
-    text-align: right;
-    background-color: #475b74;
+    margin: 0 auto;
+    background-color: #2c3337;
+    position: sticky;
 }
-.blok-brand img{
-    width: 200px;
-}
-.blok-menu{
-    
 
+.box-brand {
+    flex-grow: 1;
+}
+
+.box-brand .brand-logo {
+    display: block;
+    text-align: center;
+
+}
+
+.box-brand .brand-logo img {
+    width: 250px;
+}
+
+.box-menu {
+    flex-grow: 4;
+}
+
+.box-menu nav {
+    vertical-align: middle;
+    padding-top: 15px;
+
+
+}
+
+.box-menu nav {
+    text-align: left;
+}
+
+.box-menu nav li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
+
+
+
+
+}
+
+.box-menu nav a {
+    text-decoration: none;
+    color: #aaa8a6;
+    font-size: 20px;
+
+
+
+}
+
+.ryu {
+    width: 100%;
+    max-width: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.featured-img {
+    width: 100%;
+    max-width: 150px;
+    object-fit: cover;
+    object-position: center;
 }
