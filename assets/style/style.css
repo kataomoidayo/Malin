@@ -1,0 +1,49 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color: #475B74;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    margin: auto;
+}
+.box{
+    margin: auto;
+}
+ .brand{
+    flex-grow: 1;
+    
+}
+.navigasi{
+    flex-grow: 2;
+}
+
+.brand img{
+    max-width: 100%;
+    width: 200px; 
+    height: auto;
+    margin: 10px;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+}
+nav a {
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+nav a:hover{
+    font-weight: bold;
+}
+
+
+
+ */
