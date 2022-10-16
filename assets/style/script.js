@@ -1,9 +1,9 @@
 function majide(){
-   var x = document.getElementById('content').innerHTML;
+   var x = document.getElementById('toggle').innerHTML;
    console.log(x);
    if(x=="x"){
      console.log("close");
-     document.getElementById('content').innerHTML="&#x2261;";
+     document.getElementById('content').innerHTML="&#9776;";
      document.getElementById('pencet').style.display="none";
    }else {
      console.log("content");
