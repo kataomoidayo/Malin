@@ -9,39 +9,54 @@ body {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 15%;
     background-color: #539D8B;
     height: 100px;
 }
-.header-logo{
+
+.header-logo {
     cursor: pointer;
     width: 200px;
 }
-.nav-bar{
+
+.nav-bar {
     list-style-type: none;
 }
-.nav-bar li{
+
+.nav-bar li {
     display: inline;
     padding: 0px 10px;
 }
-.nav-bar li a{
+
+.nav-bar li a {
     text-decoration: none;
     color: #edf0f1;
 }
-.nav-bar li a:hover{
+
+.nav-bar li a:hover {
     font-weight: bold;
 }
+
+.toggle span {
+    color: #edf0f1;
+    font-size: 20px;
+    cursor: pointer;
+    padding-right: 0px;
+}
+
 .featured-img {
     width: 100%;
     max-width: 150px;
     object-fit: cover;
     object-position: center;
 }
-.container-column{
+
+.container-column {
     display: flex;
     flex-direction: column;
     /* align-items: center;
@@ -49,65 +64,106 @@ header{
     height: 100px; */
 
 }
+
 /* .container-row{
     display: flex;
     flex-direction: row;
 
 } */
-#beranda{
+#beranda {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 1000px;
 }
-.beranda-logo{
+
+.beranda-logo {
     cursor: pointer;
     width: 800px;
 }
-.beranda-info{
+
+.beranda-info {
     text-align: left;
     font-size: 15px;
 }
 
-#produk{
-  text-align: center;
-  height: 1000px;
+#produk {
+    text-align: center;
+    height: 1000px;
 }
-.produk-info{
+
+.produk-info {
     font-size: 25px;
 }
-.container-row{
+
+.container-row {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-top: 80px;
 }
-.manga-img{
+
+.manga-img {
     width: 100%;
     max-width: 200px;
     object-fit: cover;
     padding-top: 50px;
     object-position: center;
 }
-.LN-img{
+
+.LN-img {
     width: 100%;
     max-width: 200px;
     object-fit: cover;
     padding-top: 50px;
     object-position: center;
-    
 }
+
 .manga-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 30px;
     margin-top: 20px;
 }
+
 .LN-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 30px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .header-logo {
+        width: 150px;
+    }
+
+    .nav-bar {
+        width: 100%;
+    }
+
+    #beranda {
+        display: block;
+        align-items: center;
+    }
+
+    .beranda-logo {
+        width: 100%;
+    }
+
+    .container-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-around; */
+        padding-top: 80px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
 }
 
 
