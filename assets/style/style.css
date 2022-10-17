@@ -43,10 +43,7 @@ header {
 }
 
 .toggle span {
-    color: #edf0f1;
-    font-size: 20px;
-    cursor: pointer;
-    padding-right: 0px;
+    display: none;
 }
 
 .featured-img {
@@ -161,7 +158,31 @@ header {
     }
 
     .nav-bar {
-        display: none;
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        top: 100px;
+        gap: 0;
+        background-color: cadetblue;
+        width: 100%;
+        transition: 0.3s;
+        text-align: center;
+    }
+    .nav-bar li {
+        margin: 16px 0;
+    }
+    .nav-bar.active{
+        right: 0;
+    }
+    
+    .toggle span {
+        color: #edf0f1;
+        font-size: 30px;
+        cursor: pointer;
+        padding-right: 0px;
+        display: contents;
     }
 
 }

@@ -1,13 +1,11 @@
-function majide(){
-   var x = document.getElementById('toggle').innerHTML;
-   console.log(x);
-   if(x=="x"){
-     console.log("close");
-     document.getElementById('content').innerHTML="&#9776;";
-     document.getElementById('pencet').style.display="none";
-   }else {
-     console.log("content");
-     document.getElementById('content').innerHTML="x";
-     document.getElementById('pencet').style.display="block";
-   }
-}
+const tog = document.querySelector('.toggle');
+const navBar = document.querySelector('.nav-bar');
+
+tog.addEventListener('click', ( )=>{
+    tog.classList.toggle('active')
+    navBar.classList.toggle('active'); 
+})
+document.querySelectorAll('.nav-bar').forEach(n =>n.addEventListener('click', ()=>{
+  tog.classList.remove('active')
+  navBar.classList.remove('active'); 
+}))
