@@ -93,7 +93,6 @@ header {
 .container-row {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     padding-top: 80px;
 }
 
@@ -112,20 +111,29 @@ header {
     padding-top: 50px;
     object-position: center;
 }
+h3{
+    padding-top: 50px;
+}
 
 .manga-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 30px;
     margin-top: 20px;
+    background-color: #539D8B;
+    width: fit-content;
+    text-align: center;
+}
+.manga-info{
+
 }
 
-.LN-card {
+/* .LN-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 30px;
     margin-top: 20px;
-}
+} */
 
 @media screen and (max-width: 1000px) {
 
