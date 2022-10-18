@@ -1,8 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap'); */
 
-/* body {
-    font-family: 'Josefin Sans', sans-serif;
-} */
+body {
+    /* font-family: 'Josefin Sans', sans-serif; */
+}
 
 * {
     box-sizing: border-box;
@@ -18,14 +18,16 @@ header {
     padding: 30px 15%;
     background-color: #539D8B;
     height: 100px;
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%
+    width: 100%;
 }
 
 .header-logo {
     cursor: pointer;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
+    /* height: fit-content; */
 }
 
 .nav-bar {
@@ -65,17 +67,17 @@ header {
 .container-column {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
-
 #beranda {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* height: 1000px; */
+    /* height: 100%; */
+    /* margin-top: 100px; */
 }
 
 .beranda-logo {
-    cursor: pointer;
     width: 500px;
     /* padding-left: 20px;
     padding-top: 20px; */
@@ -90,8 +92,9 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
     align-items: center;
+    /* height: 100%; */
 }
 .produk-info {
     font-size: 25px;
@@ -123,22 +126,22 @@ h3 {
 }
 
 .manga-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 30px;
-    margin-top: 20px;
+    margin-top: 20px; */
     width: fit-content;
-    background-color: #539D8B;
+    /* background-color: #539D8B; */
 }
 
 .LN-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 30px;
-    margin-top: 20px;
+    margin-top: 20px; */
     text-align: center;
     width: fit-content;
-    background-color: #539D8B;
+    /* background-color: #539D8B; */
 
 }
 
@@ -154,8 +157,8 @@ aside {
 }
 #tentang{
     text-align: center;
-    /* height: 1000px; */
-    margin-top: 20px;
+    height: 100%;
+    margin-top: 100px;
 }
 .fig{
     width: 100%;
