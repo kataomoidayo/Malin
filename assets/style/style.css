@@ -73,7 +73,9 @@ header {
 
 .beranda-logo {
     cursor: pointer;
-    width: 800px;
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .beranda-info {
@@ -137,6 +139,15 @@ h3{
 }
 aside{
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tabel-manga,
+.tabel-LN{
+    text-align: justify;
+}
+footer{
+    background-color: pink;
 }
 
 @media screen and (max-width: 1000px) {
@@ -197,77 +208,3 @@ aside{
     }
 
 }
-
-
-
-
-/* .box-menu nav li {
-    display: inline;
-    list-style-type: none;
-    padding-right: 30px;
-}
-
-.box-menu nav a {
-    text-decoration: none;
-    color: #F5C5BE;
-    font-size: 20px;
-}
-
-.featured-img {
-    width: 100%;
-    max-width: 150px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 30px;
-    margin-top: 20px;
-}
-
-.main {
-    flex-direction: column;
-    background-color: white;
-}
-
-#beranda {
-    display: flex;
-    text-align: center;
-    height: 1000px;
-    text-align: center;
-
-
-}
-
-.beranda-img {
-    display: block;
-    flex-grow: 1;
-    height: fit-content;
-    width: 500px;
-    height: 500px;
-    max-width: 300px;
-    object-fit: cover;
-    object-position: center;
-    text-align: center;
-    vertical-align: middle;
-
-}
-
-.beranda-info {
-    display: block;
-    flex-grow: 2;
-    text-align: justify;
-    font-size: 15px;
-    padding-top: 60px;
-}
-
-.MaLiN {
-    padding-top: 350px;
-    max-width: 300px;
-    padding: auto;
-    object-fit: cover;
-    object-position: center;
-    vertical-align: middle;
-} */
