@@ -2,12 +2,12 @@
 
 body {
     /* font-family: 'Josefin Sans', sans-serif; */
+      margin: 0;
+      padding: 0;
 }
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 /* ------headerはここに------ */
@@ -15,12 +15,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 15%;
+    padding: 30px;
     background-color: #539D8B;
     height: 100px;
+    width: 100%;
     position: sticky;
     top: 0;
-    width: 100%;
 }
 
 .header-logo {
@@ -64,17 +64,24 @@ header {
 }
 
 /* ------mainはここから------ */
+/* main{
+    padding-top: 100px;
+} */
 .container-column {
     display: flex;
-    flex-direction: column;
-    margin-top: 100px;
+    /* flex-direction: column; */
+    /* margin-top: 100px; */
 }
 #beranda {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* height: 100%; */
-    /* margin-top: 100px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    
 }
 
 .beranda-logo {
@@ -92,9 +99,12 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 100px;
     align-items: center;
-    /* height: 100%; */
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: pink;
 }
 .produk-info {
     font-size: 25px;
@@ -157,8 +167,11 @@ aside {
 }
 #tentang{
     text-align: center;
-    height: 100%;
-    margin-top: 100px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: aquamarine;
 }
 .fig{
     width: 100%;
@@ -224,5 +237,5 @@ footer {
         padding-right: 0px;
         display: contents;
     }
-
+   
 }
