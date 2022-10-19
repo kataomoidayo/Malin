@@ -97,17 +97,21 @@ h3 {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 50px;
-    margin-top: 20px;
-    width: 100%;
+    margin-top: 25px;
+    /* width: 100%; */
     /* border: 5px double #539D8B; */
     /* background-color: palevioletred; */
+    width: 600px;
 }
 
 .tb-produk {
     text-align: justify;
     padding-top: 10px;
+}
+th{
+    height: 50px;
 }
 
 .tombol {
@@ -184,6 +188,8 @@ footer {
 }
 
 /* ーーーーーーーーーーーーーーーーmainはここまでーーーーーーーーーーーーーーーー */
+
+/* ーーーーーーーーーーーーーーーーreponsive screenはここからーーーーーーーーーーーーーーーー */
 @media screen and (max-width: 1000px) {
 
     .header-logo {
@@ -206,7 +212,7 @@ footer {
     .beranda-info {
         font-size: 16px;
     }
-
+    /* menu/navigasi toggle */
     ul {
         display: flex;
         flex-direction: column;
@@ -235,6 +241,9 @@ footer {
         cursor: pointer;
         padding-right: 0px;
         display: contents;
+    }
+    .card{
+        width: 100%;
     }
 
 }
